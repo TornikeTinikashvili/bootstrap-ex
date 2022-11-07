@@ -6,76 +6,198 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-secondary text-uppercase" id="mainNav">
-    <div class="container-fluid">
-        <a class="navbar-brand text-primary" href="#">Bootstrap ex</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-light navbar-expand-lg bg-warning text-uppercase sticky-top" id="mainNav">
+
+        <a class="navbar-brand text-dark fs-1 px-5" href="#">Bootstrap ex</a>
+        <button class="navbar-toggler mx-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse justify-content-end px-5" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 ">
             <li class="nav-item">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded active text-white justify-content-end" href="#portfolio">Portfolio</a>
+            <a class="nav-link py-3 px-1 px-lg-3 rounded active text-dark justify-content-end" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="#about">about</a>
+            <a class="nav-link py-3 px-1 px-lg-3 rounded text-dark" href="#about">about</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="#contact">contact</a>
+                <a class="btn py-3 px-1 px-lg-3 rounded text-dark" data-bs-toggle="modal" data-bs-target="#contact">contact</a>
             </li>
         </ul>
         </div>
     </div>
 </nav>
 <!--                Header                 -->
-<header class="mainSection text-center text-uppercase bg-dark flex-column pt-5 pb-5">
+<header class="mainSection text-center text-uppercase bg-dark flex-column pt-5 pb-5 text-white">
     <img style="width:200px;" src="avataaars.png" alt="avatar">
-    <h1 class="text-white pt-5">lorem ipsum-sit amet- Nihil explicabo.</h1>
+    <h1 class="text-warning py-3">bootstrap exercise</h1>
+    <h1 class="text-warning py-3 h4 lead">Graphic Artist - Web Designer - Illustrator</h1>
 </header>
 <!--                Portfolio               -->
-<div class="bg-secondary text-center">
-    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing.</h1>
-    <div id="carouselExampleIndicators" class="carousel slide" style="width:800px;" data-bs-ride="carousel">
-            <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="800x400.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                <h5>Lorem.</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, eius.</p>
+<div class="containter-fluid  bg-secondary">
+    <div class="container text-center py-5" id="portfolio">
+        <h3 class="text-uppercase text-warning fs-2">Portfolio</h1>
+            <div class="row my-5">
+                <div class="col-xl-4 col-md-6 col-12 pb-3" data-bs-toggle="modal" data-bs-target="#item1" type="button"><img src="300x300.png" alt="first" class="img-thumbnail">
                 </div>
+                <div class="col-xl-4 col-md-6 col-12 pb-3" data-bs-toggle="modal" data-bs-target="#item2" type="button"><img src="300x300.png" alt="first" class="img-thumbnail">
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 pb-3" data-bs-toggle="modal" data-bs-target="#item3" type="button"><img src="300x300.png" alt="third" class="img-thumbnail"></div>
+                <div class="col-xl-4 col-md-6 col-12 pb-3" data-bs-toggle="modal" data-bs-target="#portfolio4" type="button"><img src="300x300.png" alt="fourth" class="img-thumbnail"></div>
+                <div class="col-xl-4 col-md-6 col-12 pb-3" data-bs-toggle="modal" data-bs-target="#portfolio5" type="button"><img src="300x300.png" alt="fifth" class="img-thumbnail"></div>
+                <div class="col-xl-4 col-md-6 col-12 pb-3" data-bs-toggle="modal" data-bs-target="#portfolio6" type="button"><img src="300x300.png" alt="sixth" class="img-thumbnail"></div>
             </div>
-            <div class="carousel-item">
-                <img src="800x400.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Lorem.</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, eius.</p>
-                    </div>
+    </div>
+</div>
+<!-- About -->
+<div class="container-fluid text-center bg-dark text-white py-5" id="about">
+    <h3 class="text-uppercase text-info">About</h1>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 text-start lead">
+                <p class="fs-5 text-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quaerat debitis aut ratione! Ipsam quam dolores hic nulla totam perspiciatis iusto dolore. Sit neque voluptatibus, pariatur assumenda praesentium cumque recusandae unde beatae eligendi quibusdam consectetur aliquam et natus autem! Nesciunt nobis voluptatibus amet dolor, accusamus blanditiis nam laborum illo numquam!</p>
             </div>
-            <div class="carousel-item">
-                <img src="800x400.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Lorem.</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, eius.</p>
-                    </div>
+            <div class="col-lg-4 text-start lead">
+                <p class="fs-5 text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit expedita tempore consectetur id voluptates iste aperiam minima obcaecati earum vel at, inventore molestias, ipsam eveniet eos quis assumenda iusto. Numquam nostrum veniam quod accusamus sequi quam hic minus laboriosam. Perspiciatis fuga officia quibusdam ipsa est aliquid veniam iusto quos repudiandae.</p>
             </div>
+        </div>
+</div>
+<!-- Footer -->
+<footer class="footer text-center text-uppercase bg-warning py-5">
+    <div class="container">
+        <div class="row p-0">
+            <div class="col-xl-4 col-12 text-center py-2">
+                <h3>Location</h4>
+                <p>Lourdes 65100</p>
             </div>
-            <button class="carousel-control-prev bg-secondary" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next bg-secondary" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-            </button>
+            <div class="col-xl-4 col-12 py-2">
+                <div>
+                <h3>Socials</h4>
+            </div>
+            <a href="https://www.facebook.com/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                </svg>
+            </a>
+            <a href="https://www.twitter.com/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-twitter text-info" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg>
+            </a>
+            </div>
+            <div class="col-xl-4 col-12 py-2">
+                <h3>About Bootstrap</h4>
+                <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</p>
+            </div>
+        </div>
+    </div>
+<footer>
+<!-- Placeholders    http://fpoimg.com/300x300?text=Hanselman     -->
+  <!-- Modal -->
+  <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="connexion" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-dark">
+          <h5 class="modal-title text-light" id="contact">Contact</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-dark">
+          <form class="contact text-uppercase">
+            <label for="fname" class="text-warning">name</label><br>
+            <input type="text" id="fname" name="fname" placeholder="First name"><br>
+            <label for="lname" class="text-warning">surname</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+            <label for="email" class="text-warning">email</label><br>
+            <input type="email" id="email" name="email" placeholder="Email"><br>
+            <label for="textarea"></label><br>
+            <textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Message..."></textarea>
+            <div class="text-center py-2">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal portfolio 1 -->
+<div class="modal fade" id="item1" tabindex="-1" aria-labelledby="item1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content d-flex align-items-center">
+        <div class="modal-body">
+            <h1>Item #1</h1>
+            <img src="300x300.png" alt="img">
+            <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
     </div>
 </div>
 
+  <!-- Modal portfolio 2 -->
+<div class="modal fade" id="item2" tabindex="-1" aria-labelledby="item2" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-body">
+            <h1>Item #2</h1>
+            <img src="300x300.png" alt="img">
+            <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+  <!-- Modal portfolio 3 -->
+  <div class="modal fade text-center" id="item3" tabindex="-1" aria-labelledby="item3" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-body">
+            <h1>Item #3</h1>
+            <img src="300x300.png" alt="img">
+            <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+  <!-- Modal portfolio 4 -->
+  <div class="modal fade text-center" id="portfolio4" tabindex="-1" aria-labelledby="portfolio4" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-body">
+            <h1>Item #4</h1>
+            <img src="300x300.png" alt="img">
+            <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+  <!-- Modal portfolio 5 -->
+  <div class="modal fade text-center" id="portfolio5" tabindex="-1" aria-labelledby="portfolio5" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-body">
+            <h1>Item #5</h1>
+            <img src="300x300.png" alt="img">
+            <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+  <!-- Modal portfolio 6 -->
+  <div class="modal fade text-center" id="portfolio6" tabindex="-1" aria-labelledby="portfolio6" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-body">
+            <h1>Item #6</h1>
+            <img src="300x300.png" alt="img">
+            <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
 
-
-
-<!-- Placeholders 
-http://fpoimg.com/300x300?text=Hanselman 
--->
-<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
