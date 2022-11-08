@@ -1,0 +1,35 @@
+$text-color: rgb(240, 219, 30) !important;
+$header-color:rgb(67, 1, 73) !important;
+$section-color: rgba($color: #8a0039, $alpha: 1) !important;
+$divider-color:rgb(170, 0, 94);
+$card-shadow: 1px 1px 15px rgba($color: rgb(0, 0, 0), $alpha: 0.5);
+
+h1, h2, h3, p, a, li {
+    color: $text-color;
+}
+.portfolioImg {
+    border: solid 3px $header-color;
+    border-radius: 15px;
+    &:hover {
+        box-shadow: $card-shadow;
+    }
+}
+.footer, .navbar {
+    background-color: $header-color;
+}
+.portfolio, .header, .about {
+    background-color: $section-color;
+    border-bottom: 1px solid $divider-color;
+}
+.nav-item {
+    background-color: $section-color;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
+}
+.nav-link, .contactButton {
+    height: 1rem;
+    display: flex;
+    align-items: center;
+}

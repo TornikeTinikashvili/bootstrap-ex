@@ -1,0 +1,35 @@
+h1, h2, h3, p, a, li {
+  color: rgb(240, 219, 30) !important;
+}
+
+.portfolioImg {
+  border: solid 3px rgb(67, 1, 73) !important;
+  border-radius: 15px;
+}
+.portfolioImg:hover {
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+}
+
+.footer, .navbar {
+  background-color: rgb(67, 1, 73) !important;
+}
+
+.portfolio, .header, .about {
+  background-color: #8a0039 !important;
+  border-bottom: 1px solid rgb(170, 0, 94);
+}
+
+.nav-item {
+  background-color: #8a0039 !important;
+  display: flex;
+  align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.nav-link, .contactButton {
+  height: 1rem;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

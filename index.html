@@ -3,66 +3,66 @@
 <head>
     <title>Bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
 
 </head>
 <body>
 <nav class="navbar navbar-light navbar-expand-lg bg-warning text-uppercase sticky-top" id="mainNav">
-
-        <a class="navbar-brand text-dark fs-1 px-5" href="#">Bootstrap ex</a>
-        <button class="navbar-toggler mx-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand fs-1 px-5" href="#">Bootstrap ex</a>
+        <button class="navbar-toggler mx-5" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end px-5" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0 ">
-            <li class="nav-item">
-            <a class="nav-link py-3 px-1 px-lg-3 rounded active text-dark justify-content-end" href="#portfolio">Portfolio</a>
+        <ul class="navbar-nav  mb-lg-0">
+            <li class="nav-item bg-dark rounded mx-1 my-1">
+            <a class="nav-link py-lg-3 px-lg-3  py-3 px-3" href="#portfolio">Portfolio</a>
             </li>
-            <li class="nav-item">
-            <a class="nav-link py-3 px-1 px-lg-3 rounded text-dark" href="#about">about</a>
+            <li class="nav-item bg-dark rounded mx-1 my-1">
+            <a class="nav-link py-lg-3 px-lg-3  py-3 px-3" href="#about">about</a>
             </li>
-            <li class="nav-item">
-                <a class="btn py-3 px-1 px-lg-3 rounded text-dark" data-bs-toggle="modal" data-bs-target="#contact">contact</a>
+            <li class="nav-item rounded mx-1 my-1">
+                <a class="btn py-lg-3 px-lg-3  py-3 px-3 contactButton" data-bs-toggle="modal" data-bs-target="#contact">contact</a>
             </li>
         </ul>
         </div>
     </div>
 </nav>
 <!--                Header                 -->
-<header class="mainSection text-center text-uppercase bg-dark flex-column py-5 text-white">
+<header class="header text-center text-uppercase bg-dark flex-column py-5 text-warning">
     <img style="width:200px;" src="avataaars.png" alt="avatar">
-    <h1 class="text-warning py-3">bootstrap exercise</h1>
-    <h1 class="text-warning py-3 h4 lead">Graphic Artist - Web Designer - Illustrator</h1>
+    <h1 class="py-3">bootstrap exercise</h1>
+    <h1 class="py-3 h4 lead">Graphic Artist - Web Designer - Illustrator</h1>
 </header>
 <!--                Portfolio               -->
-<div class="containter-fluid  bg-secondary">
-    <div class="container text-center py-5" id="portfolio">
-        <h3 class="text-uppercase text-warning fs-2">Portfolio</h1>
+<div class="containter-fluid  bg-secondary portfolio">
+    <div class="container text-center py-5 text-warning text-uppercase" id="portfolio">
+        <h3 class="fs-2">Portfolio</h1>
             <div class="row my-5">
-                <div class="col-xl-4 col-md-6 col-12 pb-3" data-bs-toggle="modal" data-bs-target="#item1" type="button"><img src="300x300.png" alt="first" class="img-thumbnail">
+                <div class="col-xl-4 col-md-6 col-12 mb-3" data-bs-toggle="modal" data-bs-target="#item1"><img src="300x300.png" alt="first" class="portfolioImg" type="button">
                 </div>
-                <div class="col-xl-4 col-md-6 col-12 pb-3" data-bs-toggle="modal" data-bs-target="#item2" type="button"><img src="300x300.png" alt="first" class="img-thumbnail">
+                <div class="col-xl-4 col-md-6 col-11 mb-3" data-bs-toggle="modal" data-bs-target="#item2"><img src="300x300.png" alt="first" class="portfolioImg" type="button">
                 </div>
-                <div class="col-xl-4 col-md-6 col-12 pb-3" data-bs-toggle="modal" data-bs-target="#item3" type="button"><img src="300x300.png" alt="third" class="img-thumbnail"></div>
-                <div class="col-xl-4 col-md-6 col-12 pb-3" data-bs-toggle="modal" data-bs-target="#portfolio4" type="button"><img src="300x300.png" alt="fourth" class="img-thumbnail"></div>
-                <div class="col-xl-4 col-md-6 col-12 pb-3" data-bs-toggle="modal" data-bs-target="#portfolio5" type="button"><img src="300x300.png" alt="fifth" class="img-thumbnail"></div>
-                <div class="col-xl-4 col-md-6 col-12 pb-3" data-bs-toggle="modal" data-bs-target="#portfolio6" type="button"><img src="300x300.png" alt="sixth" class="img-thumbnail"></div>
+                <div class="col-xl-4 col-md-6 col-12 mb-3" data-bs-toggle="modal" data-bs-target="#item3"><img src="300x300.png" alt="third" class="portfolioImg" type="button"></div>
+                <div class="col-xl-4 col-md-6 col-12 mb-3" data-bs-toggle="modal" data-bs-target="#item4"><img src="300x300.png" alt="fourth" class="portfolioImg" type="button"></div>
+                <div class="col-xl-4 col-md-6 col-12 mb-3" data-bs-toggle="modal" data-bs-target="#item5"><img src="300x300.png" alt="fifth" class="portfolioImg" type="button"></div>
+                <div class="col-xl-4 col-md-6 col-12 mb-3" data-bs-toggle="modal" data-bs-target="#item6" type="button"><img src="300x300.png" alt="sixth" class="portfolioImg" type="button"></div>
             </div>
     </div>
 </div>
 <!-- About -->
-<div class="container-fluid text-center bg-dark text-white py-5" id="about">
-    <h3 class="text-uppercase text-info">About</h1>
+<div class="about container-fluid text-start lead bg-dark text-info py-5" id="about">
+    <h3 class="text-uppercase text-center">About</h1>
         <div class="row justify-content-center">
-            <div class="col-lg-4 text-start lead">
-                <p class="fs-5 text-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quaerat debitis aut ratione! Ipsam quam dolores hic nulla totam perspiciatis iusto dolore. Sit neque voluptatibus, pariatur assumenda praesentium cumque recusandae unde beatae eligendi quibusdam consectetur aliquam et natus autem! Nesciunt nobis voluptatibus amet dolor, accusamus blanditiis nam laborum illo numquam!</p>
+            <div class="col-lg-4">
+                <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quaerat debitis aut ratione! Ipsam quam dolores hic nulla totam perspiciatis iusto dolore. Sit neque voluptatibus, pariatur assumenda praesentium cumque recusandae unde beatae eligendi quibusdam consectetur aliquam et natus autem! Nesciunt nobis voluptatibus amet dolor, accusamus blanditiis nam laborum illo numquam!</p>
             </div>
-            <div class="col-lg-4 text-start lead">
-                <p class="fs-5 text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit expedita tempore consectetur id voluptates iste aperiam minima obcaecati earum vel at, inventore molestias, ipsam eveniet eos quis assumenda iusto. Numquam nostrum veniam quod accusamus sequi quam hic minus laboriosam. Perspiciatis fuga officia quibusdam ipsa est aliquid veniam iusto quos repudiandae.</p>
+            <div class="col-lg-4">
+                <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit expedita tempore consectetur id voluptates iste aperiam minima obcaecati earum vel at, inventore molestias, ipsam eveniet eos quis assumenda iusto. Numquam nostrum veniam quod accusamus sequi quam hic minus laboriosam. Perspiciatis fuga officia quibusdam ipsa est aliquid veniam iusto quos repudiandae.</p>
             </div>
         </div>
 </div>
 <!-- Footer -->
-<footer class="footer text-center bg-warning py-5">
+<footer class="footer text-center py-5">
     <div class="container">
         <div class="row p-0">
             <div class="col-xl-4 col-12 text-center py-2">
@@ -78,7 +78,7 @@
                 <h3 class="fw-bold text-uppercase">Socials</h4>
             </div>
             <a href="https://www.facebook.com/">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook text-primary" viewBox="0 0 16 16">
                     <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                 </svg>
             </a>
@@ -88,7 +88,7 @@
                 </svg>
             </a>
             <a href="https://www.linkedin.com/">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin text-primary" viewBox="0 0 16 16">
                     <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
                 </svg>
             </a>
@@ -104,16 +104,16 @@
           <h5 class="modal-title text-warning" id="contact">Contact</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body bg-dark text-start">
+        <div class="modal-body bg-dark text-start text-warning">
           <form class="contact text-uppercase">
-            <label for="fname" class="text-warning">name:</label><br>
-            <input  type="text" id="fname" name="fname" placeholder="example" class="bg-secondary  text-warning"><br>
-            <label for="lname" class="text-warning">surname:</label><br>
-            <input type="text" id="lname" name="lname" placeholder="example" class="bg-secondary  text-warning"><br>
-            <label for="email" class="text-warning">email:</label><br>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" class="bg-secondary  text-warning"><br>
-            <label for="textarea" class="text-warning">Message:</label><br>
-            <textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Message..." class="bg-secondary text-warning"></textarea>
+            <label for="fname">name:</label><br>
+            <input  type="text" id="fname" name="fname" placeholder="example" class="bg-secondary"><br>
+            <label for="lname">surname:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="example" class="bg-secondary"><br>
+            <label for="email">email:</label><br>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" class="bg-secondary"><br>
+            <label for="textarea">Message:</label><br>
+            <textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Message..." class="bg-secondary"></textarea>
             <div class="text-center py-2">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-warning">Submit</button>
@@ -124,77 +124,82 @@
     </div>
   </div>
   <!-- Modal portfolio 1 -->
-<div class="modal fade" id="item1" tabindex="-1" aria-labelledby="item1" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content d-flex align-items-center">
-        <div class="modal-body bg-dark text-warning">
-            <h1>Item #1</h1>
-            <img class="rounded" src="300x300.png" alt="img">
-            <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
-            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
-        </div>
-        </div>
-    </div>
-</div>
-
-  <!-- Modal portfolio 2 -->
-<div class="modal fade" id="item2" tabindex="-1" aria-labelledby="item2" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-body">
-            <h1>Item #2</h1>
-            <img class="rounded" src="300x300.png" alt="img">
-            <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
-            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+<div>
+    <div class="modal fade" id="item1" tabindex="-1" aria-labelledby="item1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content d-flex align-items-center">
+                <div class="modal-body bg-dark text-warning">
+                    <h1>Item #1</h1>
+                    <img class="rounded" src="300x300.png" alt="img">
+                    <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-</div>
-  <!-- Modal portfolio 3 -->
-  <div class="modal fade text-center" id="item3" tabindex="-1" aria-labelledby="item3" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-body">
-            <h1>Item #3</h1>
-            <img class="rounded" src="300x300.png" alt="img">
-            <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
-            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+    <!-- Modal portfolio 2 -->
+    <div class="modal fade" id="item2" tabindex="-1" aria-labelledby="item2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-body bg-dark text-warning">
+                <h1>Item #2</h1>
+                <img class="rounded" src="300x300.png" alt="img">
+                <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
         </div>
     </div>
-</div>
-  <!-- Modal portfolio 4 -->
-  <div class="modal fade text-center" id="portfolio4" tabindex="-1" aria-labelledby="portfolio4" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-body">
-            <h1>Item #4</h1>
-            <img class="rounded" src="300x300.png" alt="img">
-            <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
-            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+    </div>
+    <!-- Modal portfolio 3 -->
+    <div class="modal fade text-center" id="item3" tabindex="-1" aria-labelledby="item3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-body bg-dark text-warning">
+                <h1>Item #3</h1>
+                <img class="rounded" src="300x300.png" alt="img">
+                <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
         </div>
     </div>
-</div>
-  <!-- Modal portfolio 5 -->
-  <div class="modal fade text-center" id="portfolio5" tabindex="-1" aria-labelledby="portfolio5" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-body">
-            <h1>Item #5</h1>
-            <img class="rounded" src="300x300.png" alt="img">
-            <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
-            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+    </div>
+    <!-- Modal portfolio 4 -->
+    <div class="modal fade" id="item4" tabindex="-1" aria-labelledby="item4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content d-flex align-items-center">
+                <div class="modal-body bg-dark text-warning">
+                    <h1>Item #4</h1>
+                    <img class="rounded" src="300x300.png" alt="img">
+                    <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-  <!-- Modal portfolio 6 -->
-  <div class="modal fade text-center" id="portfolio6" tabindex="-1" aria-labelledby="portfolio6" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-body">
-            <h1>Item #6</h1>
-            <img src="300x300.png" alt="img">
-            <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
-            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+    <!-- Modal portfolio 5 -->
+    <div class="modal fade" id="item5" tabindex="-1" aria-labelledby="item5" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content d-flex align-items-center">
+                <div class="modal-body bg-dark text-warning">
+                    <h1>Item #5</h1>
+                    <img class="rounded" src="300x300.png" alt="img">
+                    <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal portfolio 6 -->
+    <div class="modal fade" id="item6" tabindex="-1" aria-labelledby="item6" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content d-flex align-items-center">
+                <div class="modal-body bg-dark text-warning">
+                    <h1>Item #6</h1>
+                    <img class="rounded" src="300x300.png" alt="img">
+                    <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ad mollitia iusto modi dolore esse.</p>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
 </div>
